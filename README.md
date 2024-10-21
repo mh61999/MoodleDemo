@@ -43,6 +43,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `some previews`
 
 ![lol](ezgif-1-ac5c0c7fae.gif)
+![lol](ezgif-1-b4dfe7b82a.gif)
+![lol](ezgif-1-a6028e6ba7.gif)
+![lol](ezgif-1-708420c8c9.gif)
+
 
 
 
