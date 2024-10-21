@@ -1,6 +1,8 @@
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+if you ever for what ever reason wanted to clone it, clone the serverMoodleDemo too for it to run :)
 
 ## Available Scripts
 
