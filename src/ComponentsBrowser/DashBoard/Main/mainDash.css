@@ -1,0 +1,8 @@
+.Dashcontainer{
+    border: 1px solid black;
+    margin: auto;
+    margin-right: 24%;
+    height: 600px;
+    width: 730px;
+    position: relative;
+}

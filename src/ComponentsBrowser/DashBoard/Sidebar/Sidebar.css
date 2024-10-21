@@ -1,0 +1,110 @@
+.parentContainer{
+    z-index: 100;
+    position: relative;
+}
+.topselect{
+    background-color: rgb(33, 47, 61);
+    direction: rtl;
+    width: 100%;
+    height: 50px;
+}
+.slidebutton{
+    cursor: pointer;
+    color: azure;
+    font-size: 40px;
+    transition: font-size 0.1s;
+}
+.slidebutton:hover{
+    font-size: 50px;
+}
+.container{
+    background: rgb(33, 47, 61);
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    width: 200px;
+    height:calc(100vh - 50px);
+    overflow: hidden;
+    transition: 0.4s;
+}
+.container.looks{
+    width: 60px;
+    height: 240px;
+    transition: 0.4s;
+}
+
+.barpending{
+    right: 50%;
+    margin-right: -45%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+    width: 90%;
+    height: 50px;
+}
+.barpending:hover{
+    background-color: rgb(86, 101, 115);
+    transition: 0.3s;
+}
+.barpending.active{
+    background-color: rgb(86, 101, 115);
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    margin-top: -17.5px;
+    margin-right: 10px;
+    font-size: 35px;
+    color:  rgb(255, 255, 255);
+}
+.iconin{
+    position: absolute;
+    top: 50%;
+    margin-right: 10px;
+    margin-top: -17.5px;
+    font-size: 35px;
+    color:  rgb(63, 226, 255);
+}
+.catName{
+    top:50%;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 20px;
+    opacity: 100%;
+    transition: 0.2s;
+    position: absolute;
+    left: 0;
+    color: rgb(255, 255, 255);
+}
+.catNamein{
+    top:50%;
+    margin-top: -15px;
+    opacity: 0;
+    transition:  0.2s;
+    position: absolute;
+    left: 0;
+    color: rgb(63, 226, 255);
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    font-size: large;
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    cursor: pointer;
+    background-color: tomato;
+    opacity: 100%;
+    transition: 0.4s;
+    content-visibility: none;
+}
+.logout.hide{
+    opacity: 0;
+    content-visibility: hidden;
+    transition: 0.4s;
+}
